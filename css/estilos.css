@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(161, 157, 157);
+}
+
+.cabeçalho, .footer {
+  background-color: rgb(232, 221, 221);
+  color: rgb(0, 0, 0);
+  padding: 15px;
+}
+
+.column {
+  float: left;
+  padding: 15px;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.menu {
+  width: 25%;
+}
+
+.content {
+  width: 75%;
+}
+
+.menu ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 8px;
+  background-color: #008cff;
+  color: #000000;
+}
+
+.menu li:hover {
+  background-color: #0325ff;
+}
+
+
+.menu  {
+    float: left;
+    padding: 15px;
+  }
